@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/goods_list/index",
+    "pages/goods_detail/index",
+    "pages/cart/index",
+    "pages/collect/index",
+    "pages/order/index",
+    "pages/search/index",
+    "pages/user/index",
+    "pages/feedback/index",
+    "pages/login/index",
+    "pages/auth/index",
+    "pages/pay/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#eb4450",
+    "navigationBarTitleText": "黑马🐶",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#fb3c4f",
+    "backgroundColor": "red",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "../heimagou/static/tabs/home.png",
+        "selectedIconPath": "../heimagou/static/tabs/home-o.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "分类",
+        "iconPath": "../heimagou/static/tabs/category.png",
+        "selectedIconPath": "../heimagou/static/tabs/category-o.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物车",
+        "iconPath": "../heimagou/static/tabs/cart.png",
+        "selectedIconPath": "../heimagou/static/tabs/cart-o.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "我的",
+        "iconPath": "../heimagou/static/tabs/my.png",
+        "selectedIconPath": "../heimagou/static/tabs/my-o.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
